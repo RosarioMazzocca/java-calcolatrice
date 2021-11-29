@@ -112,4 +112,11 @@ public class CalcoliHelper {
 		}
 		return valoreMaggioreDouble; 
 	}
+	
+	public static double elevazionePotenza() {
+		int base = 15;
+        int esponente = 4;
+        double risultato = Math.pow(base, esponente);
+        return risultato;
+	}
 }
